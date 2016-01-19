@@ -24,7 +24,6 @@
 #define PATHLEN_MAX 1024
 
 
-
 static int fs_getattr(const char *path, struct stat *stbuf);
 static int fs_mkdir(const char *path, mode_t mode);
 static int fs_rmdir(const char *path);
